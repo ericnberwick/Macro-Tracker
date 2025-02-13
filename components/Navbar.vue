@@ -4,15 +4,27 @@
       <img src="public/fior.jpg" class="h-16 text-blue-500" />
     </div>
     <div class="flex justify-center items-center space-x-4">
-      <h2 class="text-gray-200 hover:text-blue-500 cursor">Home</h2>
-      <h2 class="text-gray-200 hover:text-blue-500 cursor">Program</h2>
-      <h2 class="text-gray-200 hover:text-blue-500 cursor">Pricing</h2>
+      <NuxtLink class="text-gray-200 hover:text-blue-500 cursor-pointer"
+        >Home</NuxtLink
+      >
+      <NuxtLink
+        class="text-gray-200 hover:text-blue-500 cursor-pointer"
+        to="comingsoon"
+      >
+        Program
+      </NuxtLink>
+      <NuxtLink
+        class="text-gray-200 hover:text-blue-500 cursor-pointer"
+        to="comingsoon"
+        >Pricing</NuxtLink
+      >
       <UButton
         size="sm"
         color="sky"
         variant="outline"
         label="Login"
         :trailing="false"
+        to="comingsoon"
       />
       <UButton
         size="sm"
@@ -20,6 +32,7 @@
         variant="solid"
         label="Register"
         :trailing="false"
+        to="comingsoon"
       />
     </div>
   </div>
