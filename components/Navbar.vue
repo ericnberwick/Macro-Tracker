@@ -4,7 +4,7 @@
       <img src="public/fior.jpg" class="h-16 text-blue-500" />
     </div>
     <div class="flex justify-center items-center space-x-4">
-      <NuxtLink class="text-gray-200 hover:text-blue-500 cursor-pointer"
+      <NuxtLink class="text-gray-200 hover:text-blue-500 cursor-pointer" to="/"
         >Home</NuxtLink
       >
       <NuxtLink

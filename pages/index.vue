@@ -32,9 +32,9 @@
     </div>
 
     <div class="col-start-3 flex items-center">
-      <img src="public/fitness.png" class="h-96" />
+      <img src="/fitness.png" class="h-96" />
       <img
-        src="public/studio-portrait-bearded-brutal-male-isolated-gray-background-b.png"
+        src="/studio-portrait-bearded-brutal-male-isolated-gray-background-b.png"
         class="h-96"
       />
     </div>
